@@ -23,7 +23,7 @@ const middwareError = (err, req, res, next) => {
 
 app.use(middwareError);
 
-mongoose.connect('mongodb+srv://huyhg2521:huyhg2521@cluster0.uzl3b6j.mongodb.net/?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://phamduckiet:01675635412@cluster0.yxfuzbn.mongodb.net/?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 })
