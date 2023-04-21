@@ -2,6 +2,7 @@
 import { Link, Route, Routes, useNavigate } from "react-router-dom";
 import Dangky from "./Components/account/Dangky";
 import Login from "./Components/account/Login";
+import Trangchu from "./Components/page/Trangchu";
 import { useSelector } from "react-redux";
 import { useEffect } from "react";
 
@@ -27,6 +28,7 @@ function App() {
       <Route>
         <Route path="/admin/register" element={<Dangky />} />
         <Route path="/admin/login" element={<Login />} />
+        <Route path="/admin" element={<Trangchu />} />
       </Route>
     </Routes>
       
